@@ -1,1 +1,107 @@
 @charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    background-color: darkgray;
+    
+}
+
+
+
+
+
+
+header {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    text-transform: capitalize;
+    padding: 30px;
+    
+    
+    
+}
+section {
+    padding: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 3vw;
+    padding-top: 20vw;
+    padding-bottom: 20vw;
+    
+    
+    
+    
+}
+
+
+section.s1 {
+    background-color: aliceblue;
+    
+}
+section.s2 > p {
+    display: block;
+    color: aliceblue;
+    background-color: #41404079;
+    padding: 20px;
+    display:inline-block;
+    
+    
+    /* O tamanho das imagens irá criar uma barra de rolagem 
+  horizontal. Vou desativar isso */
+    
+}
+section.s2 {
+    
+    background-image: url(imagens/background001.jpg);
+    background-position:  right center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+
+
+}
+
+
+
+section.s3 {
+    background-color: aliceblue;
+
+}
+section.s4 > p {
+    background-color: #41404079;
+    color: aliceblue;
+    display: inline-block;
+    padding: 20px;
+
+}
+section.s4 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+section.s5 {
+    background-color:aliceblue;
+}
+footer {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    text-transform: unset;   
+    padding: 20px;
+}
